@@ -11,7 +11,7 @@ Console.WriteLine();
 
 if (Console.ReadKey().Key == ConsoleKey.Enter)
 {
-    Deck deck = new Deck();
+    Deck deck = Deck.GetInstance;
 
     Console.WriteLine("                      Please enter a number to continue:                ");
     Console.WriteLine();
@@ -32,8 +32,13 @@ if (Console.ReadKey().Key == ConsoleKey.Enter)
                 Console.WriteLine($"{deck.CardsCountInDeck()} card(s) left in the deck");
                 break;
             case "3":
-                deck.Shuffle();
-                Console.WriteLine("Cards are shuffled");
+                if(deck.CardsCountInDeck() == 0)
+                    Console.WriteLine("Nothing to shuffle");
+                else
+                {
+                    deck.Shuffle();
+                    Console.WriteLine("Cards are shuffled");
+                }
                 break;
             case "4":
                 deck.Restart();

@@ -13,6 +13,16 @@ public class Card
         _rank = rank;
     }
 
+    public Suits GetSuit()
+    {
+        return _suit;
+    }
+
+    public Ranks GetRank()
+    {
+        return _rank;
+    }
+
     public override string ToString()
     {
         return _suit + " " + _rank;

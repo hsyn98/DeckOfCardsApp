@@ -2,18 +2,34 @@ using DeckOfCardsApp.Enums;
 
 namespace DeckOfCardsApp;
 
-public class Deck
+public sealed class Deck
 {
     private const int CountOfCards = 52;
     private Card[] _cards;
     private int _currentCardIndex;
     private readonly Random _randomNumberGen;
-
-    public Deck()
+    
+    private static Deck instance = null;
+    public static Deck GetInstance
+    {
+        get
+        {
+            if (instance == null)
+                instance = new Deck();
+            return instance;
+        }
+    }
+    
+    private Deck()
     {
         _cards = new Card[CountOfCards];
         _randomNumberGen = new Random();
         SetupGame();
+    }
+
+    public Card[] Cards()
+    {
+        return _cards;
     }
 
     public string DealOneCard()
@@ -23,12 +39,11 @@ public class Deck
 
     public void Shuffle()
     {
-        for (var i = _currentCardIndex; i < CountOfCards; i++)
+        for (var i = 0; i < CardsCountInDeck(); i++)
         {
-            var index1 = _randomNumberGen.Next(_currentCardIndex, CountOfCards);
-            var index2 = _randomNumberGen.Next(_currentCardIndex, CountOfCards);
+            var randomIndex = _randomNumberGen.Next(0, CardsCountInDeck());
 
-            (_cards[index1], _cards[index2]) = (_cards[index2], _cards[index1]);
+            (_cards[i], _cards[randomIndex]) = (_cards[randomIndex], _cards[i]);
         }
     }
 
