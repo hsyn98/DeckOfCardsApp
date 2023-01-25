@@ -34,7 +34,7 @@ public sealed class Deck
 
     public string DealOneCard()
     {
-        return _currentCardIndex >= 52 ? "No cards left, so no card" : _cards[_currentCardIndex++].ToString();
+        return _currentCardIndex == 52 ? "No cards left, so no card" : _cards[_currentCardIndex++].ToString();
     }
 
     public void Shuffle()
