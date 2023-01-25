@@ -1,4 +1,4 @@
-# DeckOfCardsApp
+# Deck of cards app
 Implementation of a Deck of Cards using C#
 
 ## Circumstances of program
