@@ -1,0 +1,15 @@
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/bin/Debug/net6.0/DeckOfCardsApp
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/bin/Debug/net6.0/DeckOfCardsApp.deps.json
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/bin/Debug/net6.0/DeckOfCardsApp.runtimeconfig.json
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/bin/Debug/net6.0/DeckOfCardsApp.dll
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/bin/Debug/net6.0/DeckOfCardsApp.pdb
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/obj/Debug/net6.0/DeckOfCardsApp.csproj.AssemblyReference.cache
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/obj/Debug/net6.0/DeckOfCardsApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/obj/Debug/net6.0/DeckOfCardsApp.AssemblyInfoInputs.cache
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/obj/Debug/net6.0/DeckOfCardsApp.AssemblyInfo.cs
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/obj/Debug/net6.0/DeckOfCardsApp.csproj.CoreCompileInputs.cache
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/obj/Debug/net6.0/DeckOfCardsApp.dll
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/obj/Debug/net6.0/refint/DeckOfCardsApp.dll
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/obj/Debug/net6.0/DeckOfCardsApp.pdb
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/obj/Debug/net6.0/DeckOfCardsApp.genruntimeconfig.cache
+/Users/huseynbayramov/Documents/C# Projects/DeckOfCardsApp/DeckOfCardsApp/obj/Debug/net6.0/ref/DeckOfCardsApp.dll
